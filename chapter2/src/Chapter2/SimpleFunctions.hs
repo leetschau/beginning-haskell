@@ -33,3 +33,12 @@ maxmin list = let h = head list
                       where t = maxmin (tail list)
                             t_max = fst t
                             t_min = snd t 
+
+maxmin2 list = if null (tail list)
+               then (h, h)
+               else ( if h > t_max then h else t_max
+                    , if h < t_min then h else t_min )
+               where h = head list
+                     t = maxmin (tail list)
+                     t_max = fst t
+                     t_min = snd t
