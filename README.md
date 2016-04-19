@@ -1,4 +1,5 @@
 # Introduction
 
-This repository is exercise codes for
-"Beginning Haskell" by Alejandro Serrano Mena.
+This repository is exercise solutions for
+[Beginning Haskell](http://www.apress.com/9781430262503)
+by Alejandro Serrano Mena.
